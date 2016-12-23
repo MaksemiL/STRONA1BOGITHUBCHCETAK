@@ -12,7 +12,24 @@ html
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-#nav
+.option
 {
-    color:yellow;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    display:inline-flex;
+    margin: 0 20px;
+}
+.option:hover
+{
+    transition: ease 3sec;
+    border: 2px solid;
+}
+h1
+{
+    font-size:68px;
+}
+h2
+{
+    clear: both;
 }
