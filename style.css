@@ -5,33 +5,47 @@ body
 }
 html
 {
-    background-color: rgb(96,96,96)
+    background-color: rgb(96,96,96);
 }
 #header-main
 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+
 }
 .option
 {
+    font-size: 18px;
     padding: 10px;
     letter-spacing: 2px;
     text-align: center;
     display:inline-flex;
     margin: 0 20px;
+    border:2px solid;
+    border-radius: 20px;
 }
 .option:hover
 {
-    transition: ease 3sec;
+    transition: ease .5s;
     border: 2px solid;
+    background-color: #ffa800;
 }
 h1
 {
     font-size:68px;
+    letter-spacing: 2px;
 }
 h2
 {
+    font-size: 34px;
     clear: both;
+    text-align: center;
+
+}
+p
+{
+    text-align: center;
+    max-width: 560px;
 }
 
 nav {
